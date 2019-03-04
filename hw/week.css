@@ -1,0 +1,108 @@
+body{
+background: rgba(0, 0, 0, 0);
+background-size: 100% auto;
+margin: 0;
+}
+
+#logo, #date, #navbar, #banner, #main,.links, #bottom{
+background-color: white;
+max-width: 100%;
+position: fixed;
+width: 100%;
+}
+
+#logo{
+top: 10%;
+left: 185px;
+height: 30px;
+width: 30px;
+background-image : url(./res/R.PNG)
+}
+
+#season{
+margin: 10% 0 10px 10%;
+font-size:20px;
+font-family: verdana;
+letter-spacing: 1px;
+}
+
+#month{
+margin: 0 0 0 10%;
+font-size: 15px;
+font-family: verdana;
+color: #CFCFCF;
+letter-spacing: 5px;
+text-decoration: underline;
+}
+
+/*#navbar{
+padding: 30em 0 20em 60em ;
+}*/
+
+#arrow1{
+background-color: white;
+display: inline-block;
+height: 30px;
+background-repeat: no-repeat;
+background-size: contain;
+width: 40px;
+background-image: url(./res/arrow1.PNG)
+}
+
+#arrow2{
+background-color: white;
+display: inline-block;
+height: 30px;
+background-repeat: no-repeat;
+background-size: contain;
+width: 40px;
+background-image: url(./res/arrpw2.PNG)
+}
+
+
+#main{
+background: rgba(0, 0, 0, 0);
+bottom: 100px;
+left: 10%;
+right: 80%;
+font-size:25px;
+letter-spacing: 3px;
+}
+
+#banner{
+background: url(./res/main.jpg)center / cover;
+top: 0%;
+height: 70%;
+left: 25%;
+}
+
+.links{
+/*position: relative;*/
+bottom: 100px;
+left: 55%;
+font-size: 10px;
+color: #CFCFCF;
+letter-spacing: 8px;
+font-weight: bold;
+}
+
+.links a{
+color: #CFCFCF;
+}
+
+.links a:hover{
+color: lightpink;
+}
+
+.links p{
+/*letter-spacing: 20px;*/
+}
+
+#bottom{
+  top: 90%;
+  left: 90%;
+  height: 30px;
+  width: 50px;
+position: fixed;
+background-image:url(./res/02.PNG)
+}
